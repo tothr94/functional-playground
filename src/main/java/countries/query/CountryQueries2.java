@@ -17,11 +17,9 @@ public interface CountryQueries2 {
      *     <li>their populations in descending order</li>
      * </ol>
      *
-     * @param countries the list of countries
      * @return the sorted list of countries
      */
-    List<Country> getCountriesOrderByPopulationDesc(
-            @NonNull List<Country> countries);
+    List<Country> getCountriesOrderByPopulationDesc();
 
     /**
      * Returns the list of countries ordered by:
@@ -31,11 +29,9 @@ public interface CountryQueries2 {
      *     <li>their population in descending order</li>
      * </ol>
      *
-     * @param countries the list of countries
      * @return the sorted list of countries
      */
-    List<Country> getCountriesOrderByLengthOfCapitalThenByPopulationDesc(
-            @NonNull List<Country> countries);
+    List<Country> getCountriesOrderByLengthOfCapitalThenByPopulationDesc();
 
     /**
      * Returns the list of countries ordered by:
@@ -45,9 +41,7 @@ public interface CountryQueries2 {
      *     <li>their capitals</li>
      * </ol>
      *
-     * @param countries the list of countries
      * @return the sorted list of countries
      */
-    List<Country> getCountriesOrderByLengthOfCapitalThenByCapital(
-            @NonNull List<Country> countries);
+    List<Country> getCountriesOrderByLengthOfCapitalThenByCapital();
 }

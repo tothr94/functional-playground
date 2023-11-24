@@ -3,8 +3,8 @@ package countries.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import countries.base.RegionDeserializer;
-import countries.base.RegionSerializer;
+import countries.util.RegionDeserializer;
+import countries.util.RegionSerializer;
 
 /**
  * A régió értékeit leíró értékek.
