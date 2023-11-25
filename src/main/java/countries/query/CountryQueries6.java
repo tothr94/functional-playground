@@ -37,11 +37,4 @@ public interface CountryQueries6 {
      * @return the result
      */
     BigInteger getTotalAreaAsBigInteger();
-
-    /**
-     * Returns a comma separated string of country names sorted alphabetically.
-     *
-     * @return the result
-     */
-    String getCommaSeparatedOrderedCountryNames();
 }

@@ -94,4 +94,11 @@ public interface CountryQueries1 {
      */
     Optional<Country> getFirstCountryByStartingLetter(
             char letter);
+
+    /**
+     * Returns a comma separated string of country names sorted alphabetically.
+     *
+     * @return the result
+     */
+    String getCommaSeparatedOrderedCountryNames();
 }
